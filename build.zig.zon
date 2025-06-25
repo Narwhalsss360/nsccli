@@ -1,0 +1,17 @@
+.{
+    .name = .nsccli,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.14.1",
+    .fingerprint = 0xa36a8555104bed2d,
+    .dependencies = .{
+        .nstreamcom = .{
+            .url = "https://github.com/Narwhalsss360/NStreamCom/archive/refs/heads/zig.zip",
+            .hash = "nstreamcom-0.1.0-Sn6oVCdtAADK9RyJ64eM4FOTf2exoFOFx_foOrU2dANs",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
